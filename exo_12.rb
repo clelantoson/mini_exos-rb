@@ -6,6 +6,6 @@ numbers = gets.chomp.to_i
     for numbers in 0..numbers do
         puts numbers
 
-end
+    end
 
    
