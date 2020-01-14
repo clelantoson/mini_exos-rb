@@ -1,10 +1,9 @@
-
 tab = []
 
 for number in 1..50 do 
-    if number.even? 
     tab << "jean.dupont#{"%02d"%number}@email.fr"
-    end
 end
 
-puts tab
+tab.each_with_index do |value, index|
+    puts value if index.odd?
+end

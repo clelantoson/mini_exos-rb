@@ -2,7 +2,6 @@ puts "Dis moi un nombre"
 
 number = gets.chomp
 
-
-puts "Ca farte ? " * number.to_i 
-
-
+number.to_i.times do 
+    puts "Ca farte ?"
+end
